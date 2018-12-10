@@ -1,0 +1,6 @@
+line=input("type a line of words")
+linelist=set(line.split())
+linelist=list(linelist)
+linelist.sort()
+D1={i:line.count(i) for i in linelist}
+print(D1)
